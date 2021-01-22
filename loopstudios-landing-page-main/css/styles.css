@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap'); /*400*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap'); /*300*/
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  align-items: center;
+}
+
+.navbar {
+  position: absolute;
+  right: 0;
+  padding: 50px;
+  word-spacing: 25px;
+  font-family: Alata, Sans;
+  font-weight: 400;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  font-size: 1rem;
+  transition: 0.5s;
+}
+
+#logo {
+  position: absolute;
+  top: 0;
+  padding: 50px;
+  cursor: pointer;
+}
+
+section h1 {
+  position: relative;
+  bottom: 375px;
+  left: 200px;
+
+  font-family: Alata, sans;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #fff;
+  width: 25%;
+  letter-spacing: 5px;
+}
+
+/* next section  */
+
+#vr-man {
+  position: relative;
+  margin-left: 50px;
+}
+
+#text-box {
+  width: 550px;
+  height: 300px;
+  background-color: #fff;
+  position: relative;
+  left: 650px;
+  bottom: 300px;
+  overflow-y: hidden;
+
+  z-index: 5;
+}
+
+#text-box h1 {
+  font-family: Alata, sans;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: justify;
+  color: black;
+
+  padding: 55px 55px 0 55px;
+}
+
+#text-box p {
+  text-align: justify;
+  font-size: 1rem;
+  font-family: Alata, sans;
+  font-weight: 300;
+  color: hsl(0, 0%, 55%);
+
+  padding: 15px 55px 55px 55px;
+}
+
+/* Showcase section */
+#showcase {
+  all: initial;
+  position: relative;
+  left: 75px;
+
+  padding: 25px;
+
+  display: grid;
+  grid-template-columns: repeat(8, 10fr);
+  grid-template-rows: repeat(2, 30vw);
+  grid-gap: 10px;
+}
+
+#showcase h1 {
+  color: black;
+  position: relative;
+  bottom: 150px;
+
+  margin-top: 50px;
+  margin-left: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+#showcase img {
+  height: 300px;
+  position: relative;
+  top: 100px;
+  right: 150px;
+
+  border-radius: 10px;
+}
+
+#showcase img:hover {
+  transform: scale(1.25);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#deep {
+  position: relative;
+  right: 315px;
+  top: 325px;
+
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+#night {
+  position: relative;
+  right: 300px;
+  top: 325px;
+
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+#soccer {
+  position: relative;
+  right: 300px;
+  top: 325px;
+
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+#above {
+  position: relative;
+  right: 315px;
+  top: 325px;
+
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+#grid {
+  position: relative;
+  left: 1075px;
+  bottom: 100px;
+
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+#pocket {
+  position: relative;
+  right: 300px;
+  top: 325px;
+
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+#curiosity {
+  position: relative;
+  right: 300px;
+  top: 325px;
+
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+#fisheye {
+  position: relative;
+  left: 1075px;
+  bottom: 110px;
+
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.footer {
+  background-color: black;
+  padding: 75px;
+  position: relative;
+  top: 100px;
+}
+
+.footer a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 25px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  float: right;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #fff;
+}
